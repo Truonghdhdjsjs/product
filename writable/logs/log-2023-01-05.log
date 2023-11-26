@@ -1,0 +1,148 @@
+CRITICAL - 2023-01-05 01:27:48 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:28:48 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:28:55 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:39:15 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:39:57 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:43:48 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:48:52 --> Class "App\MyConfig\MyController" not found
+in APPPATH\Controllers\LoginAdmin.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginAdmin.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginAdmin')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginAdmin')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LoginAdmin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:50:07 --> Class "App\MyConfig\MyController" not found
+in APPPATH\Controllers\LoginAdmin.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginAdmin.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginAdmin')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginAdmin')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LoginAdmin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 01:51:46 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:04:43 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:25:22 --> Undefined array key "keyLogin"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keyLogin"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:27:54 --> Undefined array key "keyLogin"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keyLogin"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:28:58 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:29:35 --> Undefined array key "key"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:34:03 --> Undefined array key "key"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 22:34:20 --> Undefined array key "role"
+in APPPATH\Libraries\MySession.php on line 25.
+ 1 APPPATH\Libraries\MySession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Libraries\\MySession.php', 25)
+ 2 APPPATH\Controllers\LoginAdmin.php(39): App\Libraries\MySession->addLogin('LOGINED', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LoginAdmin->sign()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
